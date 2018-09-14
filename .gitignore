@@ -1,0 +1,11 @@
+.idea
+*.log
+src/
+bin/
+pkg/
+*.exe
+*.lock
+.agollo
+vendor/
+virtual_number
+/.idea/vcs.xml

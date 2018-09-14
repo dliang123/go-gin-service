@@ -1,0 +1,21 @@
+package: go-gin-demo
+import:
+- package: github.com/gin-gonic/gin
+- package: github.com/go-sql-driver/mysql
+- package: golang.org/x/sys/unix
+  repo: https://github.com/golang/sys
+  vcs: git
+  subpackages:
+  - unix
+- package: golang.org/x/net/context
+  repo: https://github.com/golang/net
+  vcs: git
+  subpackages:
+  - context
+- package: google.golang.org/appengine/cloudsql
+  repo: https://github.com/golang/appengine
+  vcs: git
+  subpackages:
+  - cloudsql
+- package: github.com/codegangsta/inject
+  version: ^1.0.0-rc1
